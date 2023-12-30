@@ -85,7 +85,7 @@ const checkEmailValidity = async (email) => {
             email: email,
         },
         headers: {
-            'X-RapidAPI-Key': 'df8be3d94fmshc3d87b971f8962dp16f0b7jsncc5202dfaf03',
+            'X-RapidAPI-Key': process.env.Valid_EmailKey,
             'X-RapidAPI-Host': 'mailcheck.p.rapidapi.com',
         },
     };
