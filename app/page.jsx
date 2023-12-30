@@ -1,4 +1,4 @@
-// use client directive to run the code on the client side
+
 "use client";
 
 import { useState, useEffect } from "react";
